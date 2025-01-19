@@ -1,8 +1,8 @@
-export default function AboutPage() {
+export default function Films() {
     return (
         <>
             <main>
-                <h1>About Us</h1>
+                <h1>Films currently showing</h1>
             </main>
         </>
     );
