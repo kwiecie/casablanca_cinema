@@ -29,8 +29,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <div >
         <body className="box-border flex flex-col min-h-screen">
+          <div className="flex flex-row">
           <Header />
-          <div className="flex-grow">{children}</div>
+            <div className="flex-grow">{children}</div>
+          </div>
           <Footer />
         </body>
       </div>
