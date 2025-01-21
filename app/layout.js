@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Zen_Dots } from "next/font/google";
+import { Geist, Geist_Mono, Zen_Dots, Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -18,6 +18,14 @@ const zenDots = Zen_Dots({
   weight: '400',
   subsets: ["latin"],
 }) 
+
+const outfit = Outfit({
+  variable: "--font-outfit-serif",
+  weight: '400',
+  subsets: ["latin"],
+}) 
+
+
 
 export const metadata = {
   title: "Cinema",
